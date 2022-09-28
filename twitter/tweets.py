@@ -7,10 +7,6 @@ consumer_key = os.environ['twitter_consumer_key']
 consumer_secret = os.environ['twitter_consumer_secret']
 access_token = os.environ['twitter_consumer_key']
 access_token_secret = os.environ['twitter_access_token_secret']
-# consumer_key = 'qelYRDNrbI7S3NUaPpl9uYhSM'
-# consumer_secret = '4Say0Rlok485Pcj2PYNK9EN6iHctXPLSXXHqvyB03YrLqFi2Xj'
-# access_token = '1074759289309282304-0TbQfNStFWqDJ8daM136OvPqAAoOEb'
-# access_token_secret = 'wptijZIiyFlKyh0kZWzgHGWw1XMFLrEtY08oyZsxhgOcl'
 
 auth = tweepy.OAuthHandler(
    consumer_key, consumer_secret
